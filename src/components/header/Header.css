@@ -1,11 +1,11 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 2rem;
     overflow: hidden;
 }
 
 .header__container {
-    text-align:center;
+    text-align: center;
     height: 100%;
     position: relative;
 }
@@ -17,7 +17,7 @@ header {
     display: flex;
     gap: 1.2rem;
     justify-content: center;
-   
+
 }
 
 /* ************* SOCIALS ************** */
@@ -29,13 +29,13 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 5rem;
 }
 
 
 /* ************* ME ************** */
 
-.me{
+.me {
 
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
@@ -51,12 +51,12 @@ header {
 
 }
 
-/************** SCROLL DOWN ************** */
+/************** SCROLL DOWN ***************/
 
 .scroll__down {
     position: absolute;
     right: -2.3rem;
-    bottom: 5rem;
+    bottom: 6rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
@@ -66,7 +66,7 @@ header {
 
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 70vh;
     }
 }
 
@@ -74,9 +74,11 @@ header {
 
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 110vh;
     }
-    .header__socials, .scroll__down {
+
+    .header__socials,
+    .scroll__down {
         display: none;
     }
 }
